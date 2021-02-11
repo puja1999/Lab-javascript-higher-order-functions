@@ -67,11 +67,11 @@ console.log(findSquareOfNumbers(myArray));
 
 const myArray = [2, 3, 5, 10];
 
-function multiply(array) {
-    let mulValue = array.reduce(function (initial, item) {
+function multiply(myArray) {
+    let result = myArray.reduce(function (initial, item) {
         return initial * item
     }, 1)
-    console.log("multiplication value of all number in the given aaray:", mulValue)
+    console.log("multiplication value of all number in the given aaray:", result)
 
 }
 multiply(myArray);
